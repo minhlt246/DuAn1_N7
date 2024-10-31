@@ -17,3 +17,10 @@ Code xong thì up code lên trên dự án bằng cú pháp
 Lưu ý: Trước khi viết code mới luôn checkout về nhánh main và thực hiện lệnh
 update code mới
     git pull origin main
+
+Kiểm tra trạng thái của code
+    git status
+Add hết code đã làm vào nhánh hiện tại 
+    git add .
+Ghi chú code làm những gì (viết ngắn gọn code đã làm)
+    git commit -m "nội dung của những thứ đã làm"
