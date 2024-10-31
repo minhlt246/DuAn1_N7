@@ -24,3 +24,6 @@ Add hết code đã làm vào nhánh hiện tại
     git add .
 Ghi chú code làm những gì (viết ngắn gọn code đã làm)
     git commit -m "nội dung của những thứ đã làm"
+
+Để checkout sang nhánh khác dùng lệnh (Phải làm theo quy tắc)
+    git checkout -b ten_nhanh
