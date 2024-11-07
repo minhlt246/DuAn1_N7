@@ -170,6 +170,7 @@ form {
 
 .shopping-cart a svg{
     color: #000;
+    margin-left: -70px;
 }
 
 .search-home-page button{
