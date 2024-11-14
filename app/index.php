@@ -1,22 +1,28 @@
 <?php
 require_once './controllers/home.controller.php';
+require_once './controllers/product.controller.php';
 require_once './views/header.php';
+require_once '../public/models/database.php';
+require_once '../public/models/product.model.php';
+
+$productController = new ProductController();
+
 if (isset($_GET['page'])) {
     $page = $_GET['page'];
+
     switch ($page) {
-        // case 'detail':
-        //     $detail = new ProductController;
-        //     $detail->detail();
-        //     break;
+        case 'trangChu':
+            $productController->getAllProduct();
+            break;
         
         default:
             $home = new HomeController();
-            $home->renderHome();
+            $home->getAll();
             break;
         }
 } else {
         $home = new HomeController();
-        $home->renderHome();
+        $home->getAll();
     }
 require_once './views/footer.php';
 ?>
