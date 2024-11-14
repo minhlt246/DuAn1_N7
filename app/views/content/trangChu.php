@@ -1,148 +1,418 @@
-<?php require_once 'banner.header.php'?>
-
-<link rel="stylesheet" href="<?php echo '../public/asset/css/trangchu.css'; ?>">
-<div style="margin: 50px 0;">
-        <h2>Khám phá các sáng tạo độc đáo của Louis Vuitton</h2>
-</div>
-
-<div class="row">
-    <div class="card col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="../public/asset/image/image.png" alt="Card image cap">
-        <div class="card-body">
-            <div class="title-product">
-                <h5 class="card-title">Card title</h5>
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        5.0
-                    </span>
-            </div>
-            <p class="card-text">Giá: 250000</p>
-            <p class="card-text">Lượt mua: 25k</p>
-            <a href="#" class="btn btn-primary">MUA NGAY</a>
+<section>
+      <div class="carousel slide" id="carouselExampleIndicator" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button class="active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </div>
-    <div class="card col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="../public/asset/image/image.png" alt="Card image cap">
-        <div class="card-body">
-            <div class="title-product">
-                <h5 class="card-title">Card title</h5>
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        5.0
-                    </span>
-            </div>
-            <p class="card-text">Giá: 250000</p>
-            <p class="card-text">Lượt mua: 25k</p>
-            <a href="#" class="btn btn-primary">MUA NGAY</a>
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img class="d-block w-100 carousel-img" src="../public/client/images/banner-1.jpg"></div>
+          <div class="carousel-item"><img class="d-block w-100" src="../public/client/images/banner-1.jpg"></div>
+          <div class="carousel-item"><img class="d-block w-100" src="../public/client/images/banner-1.jpg"></div>
         </div>
-    </div><div class="card col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="../public/asset/image/image.png" alt="Card image cap">
-        <div class="card-body">
-            <div class="title-product">
-                <h5 class="card-title">Card title</h5>
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        5.0
-                    </span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+      </div>
+      <div class="team team-box pb-4 my-5" id="team">
+        <div class="team-content pb-3 pb-lg-5">
+          <div class="container">
+            <div class="wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="0.3s">
+              <div class="justify-content-center my-5 w-100">
+                <div class="text-center justify-content-center mb-2">
+                  <div class="page-title">
+                    <h1 class="text-center service-title text-uppercase color-titlel">Sản Phẩm Hot</h1>
+                    <div class="fs-5 text-center service-title text-uppercase text-while justify-content-center">  Meet of Professionals</div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p class="card-text">Giá: 250000</p>
-            <p class="card-text">Lượt mua: 25k</p>
-            <a href="#" class="btn btn-primary">MUA NGAY</a>
-        </div>
-    </div><div class="card col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="../public/asset/image/image.png" alt="Card image cap">
-        <div class="card-body">
-            <div class="title-product">
-                <h5 class="card-title">Card title</h5>
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        5.0
-                    </span>
+            <div class="row">
+                <?php 
+                    $listProducts = $data['products'];
+                    foreach($listProducts as $product){
+                        extract($product);
+                        echo '<div class="col-md-6 col-lg-4 py-3 wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.3s">
+                        <div class="card team-card hvr-float">
+                        <div class="card-body">
+                    <div class="card-img w-100 justify-content-center team-banner"><img class="team-img" src="../public/client/images/'.$image.'"></div>
+                    <div class="pt-2 text-start d-flex align-items-center"><i class="fa-solid fa-user"></i>
+                        <p class="mb-0 mx-3">'.$buying.' Buying</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5 class="mt-2 text-center mb-0" id="rating-display">'.$name.'</h5>
+                      <div class="star-rating d-flex justify-content-center pt-2"><span class="star" data-value="5">&#9733;</span><span class="star" data-value="4">&#9733;</span><span class="star" data-value="3">&#9733;</span><span class="star" data-value="2">&#9733;</span><span class="star" data-value="1">&#9733;</span></div>
+                    </div>
+                  </div>
+                  <div class="line-team d-flex text-start my-2">
+                    <h4 class="text-highline ms-3 mb-0">'.$price.' VNĐ</h4>
+                    <p class="ms-3 text-decoration-line-through mb-0">'.$sale_price.' VNĐ</p>
+                  </div>
+                  <div class="align-items-center text-start mx-3 mb-2">
+                    <button class="btn btn-submit text-white" type="submit">Mua ngay</button>
+                  </div>
+                  </div>
+                </div>';
+                    }
+                ?>
             </div>
-            <p class="card-text">Giá: 250000</p>
-            <p class="card-text">Lượt mua: 25k</p>
-            <a href="#" class="btn btn-primary">MUA NGAY</a>
+          </div>
         </div>
-    </div>
-</div>
-<?php require_once 'banner.footer.php'?>
-<div style="margin: 50px 0;">
-        <h2>Sản phẩm hot</h2>
-</div>
-
-<div class="row">
-    <div class="card col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="../public/asset/image/image.png" alt="Card image cap">
-        <div class="card-body">
-            <div class="title-product">
-                <h5 class="card-title">Card title</h5>
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        5.0
-                    </span>
+      </div>
+      <div class="featured spad" id="sell">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="text-center mb-3 text-highline">
+                <h2>Featured Product</h2>
+              </div>
+              <div class="featured-controls">
+                <ul class="controls-list">
+                  <li class="active list-nav" data-filter="*">All</li>
+                  <li class="list-nav" data-filter=". ">Nhẫn</li>
+                  <li class="list-nav" data-filter=".">Dây Chuyền</li>
+                  <li class="list-nav" data-filter=".">Lăc tay</li>
+                  <li class="list-nav" data-filter=".">Dây Lưng</li>
+                </ul>
+              </div>
             </div>
-            <p class="card-text">Giá: 250000</p>
-            <p class="card-text">Lượt mua: 25k</p>
-            <a href="#" class="btn btn-primary">MUA NGAY</a>
-        </div>
-    </div>
-    <div class="card col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="../public/asset/image/image.png" alt="Card image cap">
-        <div class="card-body">
-            <div class="title-product">
-                <h5 class="card-title">Card title</h5>
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        5.0
-                    </span>
+          </div>
+          <div class="featured-filter">
+            <div class="row">
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="featured-item mb-4">
+                  <div class="featured-item-pic set-bg" data-setbg><img src="client/images/featured/feature-1.jpeg">
+                    <ul class="featured-item-pic-hover">
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-retweet"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="featured-item-text text-highline text-center">
+                    <h6 class="text"><a href="#">Crab Pool Security</a></h6>
+                    <h5 class="text-price">$30.00</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="featured-item mb-4">
+                  <div class="featured-item-pic set-bg" data-setbg><img src="client/images/featured/feature-2.jpeg">
+                    <ul class="featured-item-pic-hover">
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-retweet"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="featured-item-text text-highline text-center">
+                    <h6 class="text"><a href="#">Crab Pool Security</a></h6>
+                    <h5 class="text-price">$30.00</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="featured-item mb-4">
+                  <div class="featured-item-pic set-bg" data-setbg><img src="client/images/featured/feature-3.jpeg">
+                    <ul class="featured-item-pic-hover">
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-retweet"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="featured-item-text text-highline text-center">
+                    <h6 class="text"><a href="#">Crab Pool Security</a></h6>
+                    <h5 class="text-price">$30.00</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="featured-item mb-4">
+                  <div class="featured-item-pic set-bg" data-setbg><img src="client/images/featured/feature-4.jpeg">
+                    <ul class="featured-item-pic-hover">
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-retweet"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="featured-item-text text-highline text-center">
+                    <h6 class="text"><a href="#">Crab Pool Security</a></h6>
+                    <h5 class="text-price">$30.00</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="featured-item mb-4">
+                  <div class="featured-item-pic set-bg" data-setbg><img src="client/images/featured/feature-5.jpeg">
+                    <ul class="featured-item-pic-hover">
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-retweet"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="featured-item-text text-highline text-center">
+                    <h6 class="text"><a href="#">Crab Pool Security</a></h6>
+                    <h5 class="text-price">$30.00</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="featured-item mb-4">
+                  <div class="featured-item-pic set-bg" data-setbg><img src="client/images/featured/feature-6.jpeg">
+                    <ul class="featured-item-pic-hover">
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-retweet"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="featured-item-text text-highline text-center">
+                    <h6 class="text"><a href="#">Crab Pool Security</a></h6>
+                    <h5 class="text-price">$30.00</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="featured-item mb-4">
+                  <div class="featured-item-pic set-bg" data-setbg><img src="client/images/featured/feature-7.jpeg">
+                    <ul class="featured-item-pic-hover">
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-retweet"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="featured-item-text text-highline text-center">
+                    <h6 class="text"><a href="#">Crab Pool Security</a></h6>
+                    <h5 class="text-price">$30.00</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="featured-item mb-4">
+                  <div class="featured-item-pic set-bg" data-setbg><img src="client/images/featured/feature-8.jpeg">
+                    <ul class="featured-item-pic-hover">
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-retweet"></i></a></li>
+                      <li class="featured-item-list"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="featured-item-text text-highline text-center">
+                    <h6 class="text"><a href="#">Crab Pool Security</a></h6>
+                    <h5 class="text-price">$30.00</h5>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p class="card-text">Giá: 250000</p>
-            <p class="card-text">Lượt mua: 25k</p>
-            <a href="#" class="btn btn-primary">MUA NGAY</a>
+          </div>
         </div>
-    </div><div class="card col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="../public/asset/image/image.png" alt="Card image cap">
-        <div class="card-body">
-            <div class="title-product">
-                <h5 class="card-title">Card title</h5>
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        5.0
-                    </span>
+      </div>
+      <div class="from-blog spad" id="blogsection">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title from-blog-title text-center mb-4 text-highline">
+                <h2>From The Blog</h2>
+              </div>
             </div>
-            <p class="card-text">Giá: 250000</p>
-            <p class="card-text">Lượt mua: 25k</p>
-            <a href="#" class="btn btn-primary">MUA NGAY</a>
-        </div>
-    </div><div class="card col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="../public/asset/image/image.png" alt="Card image cap">
-        <div class="card-body">
-            <div class="title-product">
-                <h5 class="card-title">Card title</h5>
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        5.0
-                    </span>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="blog-item">
+                <div class="blog-item-pic"><img class="w-100" src="client/images/blog/blog-1.png" alt=""></div>
+                <div class="blog-item-text">
+                  <div class="d-flex text-start">
+                    <p class="mb-0"><i class="fa-regular fa-calendar"></i> May 4,2019</p>
+                    <p class="mb-0 ms-3"><i class="fa-regular fa-comment"></i> 5</p>
+                  </div>
+                  <h5><a href="#">Cooking tips make cooking simple</a></h5>
+                  <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                </div>
+              </div>
             </div>
-            <p class="card-text">Giá: 250000</p>
-            <p class="card-text">Lượt mua: 25k</p>
-            <a href="#" class="btn btn-primary">MUA NGAY</a>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="blog-item">
+                <div class="blog-item-pic"><img class="w-100" src="client/images/blog/blog-2.png" alt=""></div>
+                <div class="blog-item-text">
+                  <div class="d-flex text-start">
+                    <p class="mb-0"><i class="fa-regular fa-calendar"></i> May 4,2019</p>
+                    <p class="mb-0 ms-3"><i class="fa-regular fa-comment"></i> 5</p>
+                  </div>
+                  <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
+                  <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="blog-item">
+                <div class="blog-item-pic"><img class="w-100" src="client/images/blog/blog-3.png" alt=""></div>
+                <div class="blog-item-text">
+                  <div class="d-flex text-start">
+                    <p class="mb-0"><i class="fa-regular fa-calendar"></i> May 4,2019</p>
+                    <p class="mb-0 ms-3"><i class="fa-regular fa-comment"></i> 5</p>
+                  </div>
+                  <h5><a href="#">Visit the clean farm in the US</a></h5>
+                  <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
+      <div class="news" id="ecosystem">
+        <div class="container">
+          <div class="text-center justify-content-center mb-4 mb-lg-5">
+            <div class="page-title wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="0.3s">
+              <h1 class="text-center service-title color-titlel mb-2">Top Sản Phẩm Được Yêu Thích Nhất</h1>
+              <div class="fs-5 text-center service-title justify-content-center">  Những sản phẩm được thiết kế riêng biệt giúp nâng tầm phong cách của phái mạnh.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-lg-6 mx-auto wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="0.5s">
+              <div class="new-img-block"><img class="w-100" src="client/images/product-love-1.png"></div>
+            </div>
+            <div class="col-lg-6">
+              <div class="road-content">
+                <div class="responsive">
+                  <div class="col-lg-4">
+                    <div class="px-0 wow flipInX" data-wow-delay="0.5s" data-wow-duration="0.9s">
+                      <div class="we-did-block"><img class="w-100 block-img" src="client/images/love-product-0.jpeg" alt="...">
+                        <div class="we-did-content">
+                          <div class="w-100 text-center">
+                            <div class="h6 text-center mb-3">Traditional advertisins<br>does not work well anymore.</div>
+                            <div class="text-center"><small>December 29, 2022</small></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="px-0 wow flipInX" data-wow-delay="0.5s" data-wow-duration="0.9s">
+                      <div class="we-did-block"><img class="w-100 block-img" src="client/images/love-product-1.jpeg" alt="...">
+                        <div class="we-did-content">
+                          <div class="w-100 text-center">
+                            <div class="h6 text-center mb-3">Traditional advertisins<br>does not work well anymore.</div>
+                            <div class="text-center"><small>December 29, 2022</small></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="px-0 wow flipInX" data-wow-delay="0.5s" data-wow-duration="0.9s">
+                      <div class="we-did-block"><img class="w-100 block-img" src="client/images/love-product-2.jpeg" alt="...">
+                        <div class="we-did-content">
+                          <div class="w-100 text-center">
+                            <div class="h6 text-center mb-3">Traditional advertisins<br>does not work well anymore.</div>
+                            <div class="text-center"><small>December 29, 2022</small></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="px-0 wow flipInX" data-wow-delay="0.5s" data-wow-duration="0.9s">
+                      <div class="we-did-block"><img class="w-100 block-img" src="client/images/love-product-3.jpeg" alt="...">
+                        <div class="we-did-content">
+                          <div class="w-100 text-center">
+                            <div class="h6 text-center mb-3">Traditional advertisins<br>does not work well anymore.</div>
+                            <div class="text-center"><small>December 29, 2022</small></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="px-0 wow flipInX" data-wow-delay="0.5s" data-wow-duration="0.9s">
+                      <div class="we-did-block"><img class="w-100 block-img" src="client/images/love-product-4.jpeg" alt="...">
+                        <div class="we-did-content">
+                          <div class="w-100 text-center">
+                            <div class="h6 text-center mb-3">Traditional advertisins<br>does not work well anymore.</div>
+                            <div class="text-center"><small>December 29, 2022</small></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="px-0 wow flipInX" data-wow-delay="0.5s" data-wow-duration="0.9s">
+                      <div class="we-did-block"><img class="w-100 block-img" src="client/images/love-product-5.jpeg" alt="...">
+                        <div class="we-did-content">
+                          <div class="w-100 text-center">
+                            <div class="h6 text-center mb-3">Traditional advertisins<br>does not work well anymore.</div>
+                            <div class="text-center"><small>December 29, 2022</small></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="px-0 wow flipInX" data-wow-delay="0.5s" data-wow-duration="0.9s">
+                      <div class="we-did-block"><img class="w-100 block-img" src="client/images/love-product-6.jpeg" alt="...">
+                        <div class="we-did-content">
+                          <div class="w-100 text-center">
+                            <div class="h6 text-center mb-3">Traditional advertisins<br>does not work well anymore.</div>
+                            <div class="text-center"><small>December 29, 2022</small></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="px-0 wow flipInX" data-wow-delay="0.5s" data-wow-duration="0.9s">
+                      <div class="we-did-block"><img class="w-100 block-img" src="client/images/love-product-7.jpeg" alt="...">
+                        <div class="we-did-content">
+                          <div class="w-100 text-center">
+                            <div class="h6 text-center mb-3">Traditional advertisins<br>does not work well anymore.</div>
+                            <div class="text-center"><small>December 29, 2022</small></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shirt my-5 pb-4" id="shirt">
+        <div class="shirt-new">
+          <div class="container">
+            <div class="wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="0.3s">
+              <div class="justify-content-center my-5 w-100">
+                <div class="text-center justify-content-center mb-2">
+                  <div class="page-title">
+                    <h1 class="text-center service-title text-uppercase color-titlel">Sản Phẩm Mới Trend</h1>
+                    <div class="fs-5 text-center service-title text-uppercase text-while justify-content-center">  Meet of Professionals</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 col-lg-4">
+                <div class="shirt-new-product"><a class="product-roll" href=""><img class="shirt-img w-100" data-sizes="auto" src="client/images/love-product-1.jpeg" data-src="" alt="Áo Sơ Mi"></a></div>
+                <div class="shirt-img-Home align-items-center text-start">
+                  <h2><a href="" target="_self"> Shirt</a></h2><a class="shirt-img-View btn-buy" href="" target="_self">
+                    Xem
+                    Chi Tiet</a>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-4">
+                <div class="shirt-new-product"><a class="product-roll" href=""><img class="shirt-img w-100" data-sizes="auto" src="client/images/love-product-1.jpeg" data-src="" alt="Áo Sơ Mi"></a></div>
+                <div class="shirt-img-Home align-items-center text-start">
+                  <h2><a href="" target="_self"> Shirt</a></h2><a class="shirt-img-View btn-buy" href="" target="_self">
+                    Xem
+                    Chi Tiet</a>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-4">
+                <div class="shirt-new-product">
+                  <div class="product-roll"><img class="shirt-img w-100" data-sizes="auto" src="client/images/love-product-1.jpeg" data-src="" alt="Áo Sơ Mi"></div>
+                </div>
+                <div class="shirt-img-Home align-items-center text-start">
+                  <h2> Shirt</h2><a class="shirt-img-View btn-buy" href="" target="_self">
+                    Xem
+                    Chi Tiet</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

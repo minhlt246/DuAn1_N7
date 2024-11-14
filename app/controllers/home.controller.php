@@ -4,8 +4,19 @@
 <!-- b4: tạo hàm chức năng -->
  <?php
  class HomeController{
-    public function renderHome(){
-        require_once './views/content/trangchu.php';
+    private $productModel;
+    private $data;
+    public function __construct() {
+        $this->productModel = new ProductModel();
     }
+    public function renderHome($data){
+        require_once './views/content/trangChu.php';
+    }
+
+    public function getAll(){
+        $this->data['products'] = $this->productModel->getAllProduct();
+        $this->renderHome($this->data);
+    }
+
  }
  ?>
