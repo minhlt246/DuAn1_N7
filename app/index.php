@@ -4,6 +4,7 @@ require_once './controllers/product.controller.php';
 require_once './views/header.php';
 require_once '../public/models/database.php';
 require_once '../public/models/product.model.php';
+require_once '../public/models/category.model.php';
 
 $productController = new ProductController();
 
