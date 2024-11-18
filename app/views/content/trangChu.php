@@ -71,7 +71,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="featured-item mb-4">
-              <div class="featured-item-pic set-bg" data-setbg><img src="../public/client/images/featured/feature-1.jpeg">
+              <div class="featured-item-pic set-bg w-100" data-setbg><img src="../public/client/images/featured/feature-1.jpeg">
                 <ul class="featured-item-pic-hover">
                   <li class="featured-item-list"><a href="#"><i class="fa fa-heart"></i></a></li>
                   <li class="featured-item-list"><a href="#"><i class="fa fa-retweet"></i></a></li>

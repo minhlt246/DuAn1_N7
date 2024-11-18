@@ -17,6 +17,54 @@ button:focus:not(:focus-visible) {
 
 .btn-class {
   background: #F5EFEF; }
+.btn-log {
+  padding: 1em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.btn-log:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.btn-log:active {
+  transform: translateY(-1px);
+}
+.btn-reg {
+  padding: 1em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #09f;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.btn-reg:hover {
+  background-color: #fff f;
+  box-shadow: 0px 15px 20px #0cf;
+  color: #000;
+  transform: translateY(-7px);
+}
+.btn-reg:active {
+  transform: translateY(-1px);
+}
 
 .img-logo {
   aspect-ratio: 1 / 1;
@@ -223,6 +271,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+
 header {
   top: 0;
   right: 0;
@@ -243,50 +292,6 @@ header .navbar .nav-item .nav-link .nav-link {
 
 header .navbar .nav-item .active {
   color: #EF7087; }
-
-header .btn-log {
-  padding: 1em 3em;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: #fff;
-  border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none; }
-  header .btn-log:hover {
-    background-color: #23c483;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-7px); }
-  header .btn-log:active {
-    transform: translateY(-1px); }
-
-header .btn-reg {
-  padding: 1em 3em;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: #0099FF;
-  border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none; }
-  header .btn-reg:hover {
-    background-color: #ffff;
-    box-shadow: 0px 15px 20px #00CCFF;
-    color: #000;
-    transform: translateY(-7px); }
-  header .btn-reg:active {
-    transform: translateY(-1px); }
 
 .dropdown-menu {
   background: #050510; }
