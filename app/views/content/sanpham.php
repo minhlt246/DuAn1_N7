@@ -56,9 +56,9 @@
                     <div class="tab-pane fade show active" id="referral" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                         <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
                             <?php
-                                if (isset($_GET['iddm'])) {
-                                    $iddm = $_GET['iddm'];
-                                    $products = $model->dssptheodm($iddm);
+                                if (isset($_GET['id'])) {
+                                    $id = $_GET['id'];
+                                    $products = $model->dssptheodm($id);
                                 } else {
                                     $model->dssp();
                                     $products = $model->mangsp;
@@ -67,9 +67,9 @@
                                 foreach ($products as $key => $value) {
                                     echo '
                                          <div class="product-item">
-                                            <figure><a href="" title="Product Title"><img class="card-img-topimg w-100" src="client/images/featured'. $value['images'].'></a></figure>
+                                            <figure><a href="" title="Product Title"><img class="card-img-topimg w-100" src="client/images/featured'. $value['image'].'></a></figure>
                                             <div class="d-flex flex-column text-center">
-                                              <h3 class="fs-6 fw-normal">' . $value['tensp'] . '</h3>
+                                              <h3 class="fs-6 fw-normal">' . $value['name'] . '</h3>
                                               <div><span class="rating d-flex justify-content-center">
                                                   <div class="text-warning" width="18" height="18"><i class="fa-solid fa-star"></i></div>
                                                   <div class="text-warning" width="18" height="18"><i class="fa-solid fa-star"></i></div>

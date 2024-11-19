@@ -2,6 +2,7 @@
 class ProductModel
 {
     private $db;
+
     public function __construct()
     {
         $this->db = new Database();
@@ -24,5 +25,36 @@ class ProductModel
         order by p2.buying DESC";
         $result = $this->db->getAll($sql);
         return $result;
+    }
+}
+class ProductModels {
+    public $mangsp;
+    public $mangdm;
+
+    public function productcategory() {
+        include_once 'Models/connectmodel.php';
+        $dm = new ConnectModel();
+        $sql = "SELECT * FROM productcategory";
+        $this->mangdm = $dm->selectall($sql);
+    }
+
+    public function dssp() {
+        include_once 'Models/connectmodel.php';
+        $sp = new ConnectModel();
+        $sql = "SELECT * FROM sanpham";
+        $this->mangsp = $sp->selectall($sql);
+    }
+
+    public function dssptheotdm($id) {
+        $sql = "SELECT * FROM sanpham WHERE id=:id";
+        include_once 'Models/connectmodel.php';
+        $sp = new ConnectModel();
+        $sp->ketnoi();
+        $stmt = $sp->conn->prepare($sql);
+        $stmt->bindParam(":id", $id);
+        $stmt->execute();
+        $kq = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $sp->conn = null;
+        return $kq;
     }
 }
