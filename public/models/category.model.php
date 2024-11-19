@@ -9,7 +9,7 @@ class CategoryModel
 
     public function getAllCategory()
     {
-        $sql = "SELECT * FROM category";
+        $sql = "SELECT * FROM productcategory";
         $result = $this->db->getAll($sql);
         return $result;
     }
