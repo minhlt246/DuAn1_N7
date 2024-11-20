@@ -14,22 +14,6 @@
               <div class="input-group mb-3"><span class="input-group-text"><i class="fa-solid fa-user"></i></span>
                 <input class="form-control" type="text" placeholder="Your Username" aria-label="Username" required="">
               </div>
-              <div class="input-group mb-3">
-                <select class="form-select form-control" id="inputGroupSelect01">
-                  <option selected="">United  Started (US)</option>
-                  <option value="1">England (UK)</option>
-                  <option value="2">VieNam (VN)</option>
-                  <option value="3">THAILAND (TH)</option>
-                </select>
-              </div>
-              <div class="input-group mb-3">
-                <select class="form-select form-control" id="inputGroupSelect02">
-                  <option selected="">Armed  Forces  (AA)</option>
-                  <option value="1">England (UK)</option>
-                  <option value="2">VieNam (VN)</option>
-                  <option value="3">THAILAND (TH)</option>
-                </select>
-              </div>
               <div class="input-group mb-3"><span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
                 <input class="form-control" id="exampleInputEmail1" type="email" placeholder="Your Email Address" aria-describedby="emailHelp" required="">
               </div>
@@ -56,6 +40,10 @@
               <div class="d-flex justify-content-between">
                 <button class="btn btn-cancel" type="button">Cancel</button>
                 <button class="btn btn-start" type="submit">Register</button>
+              </div>
+              <div class="d-flex justify-content-between">
+                  <button onclick="window.location.href='/auth/google'">Sign in with Google</button>
+                  <button onclick="window.location.href='/auth/facebook'">Sign in with Facebook</button>
               </div>
             </form>
           </div>
