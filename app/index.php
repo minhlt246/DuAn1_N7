@@ -23,6 +23,14 @@ if (isset($_GET['page'])) {
             $signin->addUser();
             break;
 
+        case 'chiTietSp':
+            $productController->detail();
+            break;
+
+        case 'sanPham':
+            $productController->getProductByCate2();
+            break;
+
         default:
             $home = new HomeController();
             $home->getAll();
