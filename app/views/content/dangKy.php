@@ -14,6 +14,7 @@
               <div class="input-group mb-3"><span class="input-group-text"><i class="fa-solid fa-user"></i></span>
                 <input class="form-control" type="text" placeholder="Your Username" aria-label="Username" required="">
               </div>
+
               <div class="input-group mb-3"><span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
                 <input class="form-control" id="exampleInputEmail1" type="email" placeholder="Your Email Address" aria-describedby="emailHelp" required="">
               </div>
