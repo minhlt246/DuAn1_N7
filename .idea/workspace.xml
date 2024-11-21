@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a93fb267-132c-435a-b6d7-7246689d9550" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/contact.controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/content/lienhe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/models/contactModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732120371276</updated>
       <workItem from="1732120372998" duration="643000" />
-      <workItem from="1732153553477" duration="4240000" />
+      <workItem from="1732153553477" duration="5843000" />
     </task>
     <servers />
   </component>
